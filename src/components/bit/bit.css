@@ -1,7 +1,5 @@
 .bit-container {
-  /* font-size: 30px; */
-  /* background: green; */
-  margin: auto;
+  margin: 0px auto;
   height: 100%;
   width: 100%;
   max-width: 800px;
@@ -22,7 +20,7 @@
 }
 
 .bit-section {
-  margin-bottom: 20px !important;
+  margin-bottom: 20px;
 }
 
 .bit-list {
@@ -44,4 +42,16 @@
 
 .bit-footer-icon {
   margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .bit-header {
+    font-size: 24px;
+  }
+
+  .footer {
+    display: block;
+    margin: 10px;
+  }
 }
