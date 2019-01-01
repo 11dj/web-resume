@@ -1,5 +1,5 @@
 import React from 'react'
-import MainComponent from '../components/home'
+import BitComponent from '../components/bit'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
@@ -8,15 +8,13 @@ import {
   disableLoading
 } from '../actions/loading'
 
-import './style.css'
-
 
 // Main container
-export class MainContainer extends React.Component {
+export class BitContainer extends React.Component {
   render () {
     return (
-      <div className={'main-container'}> 
-        <MainComponent {...this.props}/>
+      <div> 
+        <BitComponent {...this.props}/>
       </div>
     )
   }
@@ -38,4 +36,4 @@ const mapDispatchToProps = (dispatch) => {
   }, dispatch)
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(MainContainer)
+export default connect(mapStateToProps, mapDispatchToProps)(BitContainer)
