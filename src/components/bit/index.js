@@ -2,19 +2,8 @@ import React, { Component } from 'react';
 import './bit.css';
 import {
   Container,
-  Button,
-  Radios,
-  Checkbox,
-  TextInput,
-  TextArea,
-  Avatar,
-  Balloon,
-  List,
-  Table,
-  Progress,
   Icon,
-  Sprite,
-  ControllerIcon
+  List
 } from "nes-react";
 
 export default class BitComponent extends Component {
