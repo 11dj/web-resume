@@ -2,7 +2,7 @@
   "name": "react-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://kittist.github.io//web-resume",
+  "homepage": "https://kittist.github.io//web-resume",
   "dependencies": {
     "axios": "^0.18.0",
     "nes-react": "^1.0.1",
